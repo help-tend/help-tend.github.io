@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Backupchik</title>
+<meta name="description" content="Политика конфиденциальности программы Backupchik.">
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <img src="logo.png" alt="">
+  <a class="brand" href="index.html">Backupchik</a>
+  <nav><a href="../">Все проекты</a><a href="index.html">Главная</a><a href="privacy.html" aria-current="page">Конфиденциальность</a><a href="terms.html">Условия</a></nav>
+</div></header>
+
+<main>
+<div class="wrap">
+  <h1>Политика конфиденциальности</h1>
+  <p class="muted">Действует с 2 ноября 2026 г.</p>
+  <p>Эта политика описывает, какие данные обрабатывает программа Backupchik для Windows (далее — «программа») и как она использует данные, полученные от Google, Яндекса и Mail.Ru.</p>
+
+  <h2>1. Кто обрабатывает данные</h2>
+  <p>Программа работает только на компьютере пользователя. У неё нет собственных серверов, учётных записей и аналитики. Разработчик не получает, не собирает и не хранит данные пользователей.</p>
+
+  <h2>2. Какие данные Google использует программа</h2>
+  <ul>
+    <li><b>Адрес электронной почты и имя аккаунта Google</b> — чтобы показать пользователю, какой аккаунт подключён.</li>
+    <li><b>Файлы и папки на Google Диске, созданные программой</b> (разрешение <code>drive.file</code>) — чтобы загружать резервные копии, проверять их контрольные суммы, удалять устаревшие копии по настройке автоочистки и создавать публичные ссылки по запросу пользователя.</li>
+    <li><b>Сведения об объёме хранилища</b> — чтобы показать занятое и свободное место.</li>
+  </ul>
+  <p>Программа не имеет доступа к другим файлам на Google Диске пользователя, к почте, контактам и другим сервисам Google. Пароль от аккаунта Google вводится только на странице Google и программе не передаётся.</p>
+
+  <h2>3. Как хранятся данные</h2>
+  <p>Ключи доступа (токены) хранятся только на компьютере пользователя в папке <code>%ProgramData%\Backupchik</code> и зашифрованы средствами Windows (DPAPI). Там же хранятся список файлов и их контрольные суммы. Содержимое файлов передаётся напрямую с компьютера в облачное хранилище пользователя по защищённому соединению (HTTPS).</p>
+
+  <h2>4. Передача третьим лицам</h2>
+  <p>Программа не продаёт, не передаёт и не раскрывает данные пользователей третьим лицам, не использует их для рекламы и не применяет их для обучения моделей искусственного интеллекта. Данные передаются только тому облачному сервису, который выбрал сам пользователь.</p>
+
+  <h2>5. Соответствие требованиям Google</h2>
+  <p>Использование и передача программой Backupchik любой информации, полученной от API Google, соответствует <a href="https://developers.google.com/terms/api-services-user-data-policy">Политике Google в отношении пользовательских данных API-сервисов</a>, включая требования об ограниченном использовании (Limited Use).</p>
+
+  <h2>6. Как отозвать доступ и удалить данные</h2>
+  <ul>
+    <li>Отключить аккаунт в программе: «Аккаунты → Отключить».</li>
+    <li>Отозвать доступ программы к аккаунту Google: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Удалить все локальные данные программы: удалить программу и папку <code>%ProgramData%\Backupchik</code>.</li>
+    <li>Резервные копии на Google Диске остаются в хранилище пользователя; их можно удалить через Google Диск.</li>
+  </ul>
+
+  <h2>7. Яндекс.Диск и Облако Mail.Ru</h2>
+  <p>Для этих сервисов программа хранит логин и пароль приложения в зашифрованном виде на компьютере пользователя и использует их только для работы с хранилищем пользователя.</p>
+
+  <h2>8. Изменения и контакты</h2>
+  <p>При изменении политики новая редакция публикуется на этой странице. Вопросы: <a href="https://t.me/alexbax56">t.me/alexbax56</a>.</p>
+
+  <section class="lang" id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="muted">Effective November 2, 2026.</p>
+    <p>This policy explains what data the Backupchik desktop application for Windows ("the app") processes and how it uses data received from Google, Yandex and Mail.Ru.</p>
+    <h2>1. Who processes data</h2>
+    <p>The app runs entirely on the user's computer. It has no servers, user accounts or analytics of its own. The developer does not receive, collect or store any user data.</p>
+    <h2>2. Google user data accessed</h2>
+    <ul>
+      <li><b>Google account email address and name</b> — to show the user which account is connected.</li>
+      <li><b>Google Drive files and folders created by the app</b> (<code>drive.file</code> scope) — to upload backups, verify their checksums, delete old backups according to the user's auto-cleanup setting, and create share links when the user requests one.</li>
+      <li><b>Storage quota information</b> — to display used and free space.</li>
+    </ul>
+    <p>The app cannot access any other files in the user's Google Drive, nor Gmail, Contacts or other Google services. The Google password is entered only on Google's sign-in page and is never available to the app.</p>
+    <h2>3. Storage</h2>
+    <p>Access tokens are stored only on the user's computer in <code>%ProgramData%\Backupchik</code>, encrypted with Windows DPAPI, together with the list of backed-up files and their checksums. File contents are transferred directly from the user's computer to the user's cloud storage over HTTPS.</p>
+    <h2>4. Sharing</h2>
+    <p>The app does not sell, transfer or disclose user data to third parties, does not use it for advertising, and does not use it to train AI/ML models. Data is sent only to the cloud service the user has chosen.</p>
+    <h2>5. Google API Services User Data Policy</h2>
+    <p>Backupchik's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    <h2>6. Revoking access and deleting data</h2>
+    <ul>
+      <li>Disconnect the account in the app: "Accounts → Disconnect".</li>
+      <li>Revoke the app's access to your Google account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+      <li>Delete all local data by uninstalling the app and removing <code>%ProgramData%\Backupchik</code>.</li>
+      <li>Backups in Google Drive remain in the user's own storage and can be deleted in Google Drive.</li>
+    </ul>
+    <h2>7. Contact</h2>
+    <p>Changes to this policy are published on this page. Questions: <a href="https://t.me/alexbax56">t.me/alexbax56</a>.</p>
+  </section>
+</div>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 Backupchik</span>
+  <a href="privacy.html">Политика конфиденциальности / Privacy Policy</a>
+  <a href="terms.html">Условия использования / Terms of Service</a>
+  <a href="https://t.me/alexbax56">Автор: t.me/alexbax56</a>
+</div></footer>
+</body>
+</html>
